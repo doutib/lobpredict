@@ -1,0 +1,57 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+
+try:
+    from setuptools import setup
+except ImportError:
+    from distutils.core import setup
+
+
+with open('README.rst') as readme_file:
+    readme = readme_file.read()
+
+with open('HISTORY.rst') as history_file:
+    history = history_file.read()
+
+requirements = [
+    # TODO: put package requirements here
+]
+
+test_requirements = [
+    # TODO: put package test requirements here
+]
+
+setup(
+    name='lobpredictrst',
+    version='0.1.0',
+    description="This library is used to predict and classify movements in Limit Order Book (LOB) data",
+    long_description=readme + '\n\n' + history,
+    author="Shamindra Shrotriya",
+    author_email='shamindra@berkeley.edu',
+    url='https://github.com/shamindras/lobpredictrst',
+    packages=[
+        'lobpredictrst',
+        'lobpredictrst.tests'
+    ],
+    package_dir={'lobpredictrst':
+                 'lobpredictrst'},
+    include_package_data=True,
+    install_requires=requirements,
+    license="BSD",
+    zip_safe=False,
+    keywords='lobpredictrst',
+    classifiers=[
+        'Development Status :: 2 - Pre-Alpha',
+        'Intended Audience :: Developers',
+        'License :: BSD',
+        'Natural Language :: English',
+        "Programming Language :: Python :: 2",
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
+    ],
+    test_suite='tests',
+    tests_require=test_requirements
+)

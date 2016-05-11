@@ -1,0 +1,57 @@
+lobpredictrst/
+	lobpredictrst/
+		data/
+			raw_data/
+				finance_raw.csv
+			output/
+				model_clean_data/
+					clean_data.csv
+					train.csv
+					test.csv
+					holdout.cppsv
+				TB/
+					TB_SVM_1/
+					TB_RF_1/
+						prediction_test.csv
+						results.csv
+				SS/
+					SS_SVM_1/
+		model/
+			spec/
+				TB/
+					TB_SVM_1.yaml
+					TB_RF_1.yaml
+				SS/
+					SS_SVM_1.yaml
+		jupyter/
+			output_summaries/
+				TB/
+					TB_SVM_1.ipynb
+					TB_RF_1.ipynb
+				SS/
+					SS_SVM_1.ipynb
+			exploration/
+				TB_feature_eng.ipynb
+				RF_feature_eng.ipynb
+				
+		tests/
+			test_svm.py
+		
+		data_clean.py
+		data_classification.py
+		data_feature_eng.py
+		run_create_final_data.py
+		svm.py
+		rf.py
+		nnet.py
+		run_model.py
+		run_fetch_results.py
+
+
+
+
+
+
+
+
+

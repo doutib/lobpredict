@@ -1,0 +1,24 @@
+author : SHAMINDRA
+data_source_dir : SC_shuffle
+test_type : test
+model_type : RF
+RF:
+    n_estimators : 100
+    criterion : 'gini'
+    max_features : 'auto'
+    max_depth : 15
+    n_jobs : 1
+SVM:
+    kernel : 'rbf'
+    degree : 3
+    gamma : 'auto'
+    tol : 0.001
+NNET:
+    method1 : 'Tanh'
+    neurons1 : 24
+    method2 : 'Tanh'
+    neurons2 : 39
+    decay : 0.0001
+    learning_rate : 0.001
+    n_iter : 25
+    random_state : 1

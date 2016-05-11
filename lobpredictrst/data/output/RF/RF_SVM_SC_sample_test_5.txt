@@ -1,0 +1,33 @@
+confusion_matrix
+
+[[995 677 210]
+ [561 929 198]
+ [517 612 359]]
+
+classification_report
+
+             precision    recall  f1-score   support
+
+         -1       0.48      0.53      0.50      1882
+          0       0.42      0.55      0.48      1688
+          1       0.47      0.24      0.32      1488
+
+avg / total       0.46      0.45      0.44      5058
+
+
+kernel
+
+rbf
+
+C
+
+10.0
+
+logloss
+
+1.04318188356
+
+miss_err
+
+0.548635824437
+

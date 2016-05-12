@@ -2,12 +2,6 @@
 Credits
 =======
 
-Development Lead
-----------------
-
 * Shamindra Shrotriya <shamindra@berkeley.edu>
+* Thibault Doutre <thibault.doutre@berkeley.edu>
 
-Contributors
-------------
-
-None yet. Why not be the first?
